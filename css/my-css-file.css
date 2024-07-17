@@ -1,0 +1,96 @@
+:root{
+  --peachyellow:#EDD9A3;
+  --cream:#e2e8c0;
+  --egplant:#443742;
+  --coyote:#846c5b;
+  --buff:#cea07e;
+}
+
+
+
+
+/*
+culori
+PEACH YELLOW: #EDD9A3
+CREAM :e2e8c0
+EGGPLANT: 443742
+coyote: 846c5b
+BUFF:cea07e
+*/
+/*
+fonturi
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-it-moderna-<uniquifier> {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+*/
+/*THIS IS A COMMENT AREA*/
+@font-face{
+	font-family: Oswald;
+	src: url("../fonts/oswald.ttf");
+}
+@font-face{
+	font-family: Arsenal_reg;
+	src:url("../fonts/arsenalsc-reg.ttf");
+}
+.title_like{ font-family:Oswald;
+font-size: 3em;}
+.signiture{font-family:"Playwrite IT Moderna", cursive;
+font-size: 1.5em;}
+#title{font-family: Oswald; }
+#paragraf{
+	font-family: Arsenal_reg;
+    font-size: 2em;}
+
+.custom-bg{background-color:#e2e8c0; }
+.custom-grid{background-color:#846C5B;  }
+.custom-col1{background-color: aqua;}
+.custom-col2{background-color: azure;}
+#logo{
+	width: 5em;
+}
+#my_photo{
+	width: 24em;
+}
+#zambaret{width: 18em;
+margin-left: 0;}
+.line{ border-top: 5px dashed black;}
+.text_text{font family:Arsenla_reg;
+font-size:2em;}
+
+
+.custom-bg-img1{background-image: url("../img/nature.jpg")}
+.text_italics{font-family:"Playwrite IT Moderna", cursive;
+               font-size:2em;}
+
+.text_smaller{ont-family:"Playwrite IT Moderna", cursive;
+font-size:1.5em;}
+.custom-bg-img2{background-image:url("../img/ocean.jpg");}
+.custom-bg-img3{background-image:url("../img/school.jpg");
+width:50em;}
+.custom-bg-img4{background-image:url("../img/students.jpeg");}
+.form_text{font-family:Arsenla_reg;
+font-size:1.5em;}
+/* unvisited link */
+a:link, a:visited {
+  color:#443742 ;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #CEA07E;
+}
+.custom-bg-fvideo{background-color:#00CCCC}
+
+.custom-bg-img5{background-image:url("../img/apa.jpg");}
+.4seas{background-image:url("../img/4seas.jpg");}
+.medalie{background-image:url("../img/stafeta.jpg");}
+.bras{background-image: url("../img/bras.jpg")}
+body{
+	overflow-x: hidden;}
